@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="wyf.ytl"				
+      android:versionCode="1"
+      android:versionName="1.0"> <!--该标记定义了该项目的使用架构，所在的包以及版本号  -->
+    <application android:icon="@drawable/icon" android:label="@string/app_name"><!-- 定义了该项目在手机中的图标以及名称 -->
+        <activity android:name=".HelloAndroid"
+                  android:label="@string/app_name"><!-- 定义一个Activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter><!-- 定义一个该Activity可以接受的Intent -->
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="7" /><!-- 声明SDK的版本 -->
+</manifest> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 添加一个垂直的线性布局 -->
+	<TextView  
+		android:id="@+id/myTextView1"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="请通过发牌按钮发牌"
+	/><!-- 添加一个表示扑克牌的文本 -->
+	<TextView  
+		android:id="@+id/myTextView2"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="赢的概率为："
+	/><!-- 添加一个输赢概率的文本 -->
+	<Button
+		android:id="@+id/button"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 	
+	    android:text="发牌"	
+	/>	<!-- 添加一个发牌按钮 -->
+</LinearLayout>

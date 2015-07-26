@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="用户名："
+    	android:layout_x="10px"
+    	android:layout_y="20px"
+    >
+    </TextView>
+    <EditText
+    	android:layout_width="90px"
+    	android:layout_height="wrap_content"
+    	android:layout_x="70px"
+    	android:layout_y="10px"    	
+    >
+    </EditText>
+    <TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="密    码："
+    	android:layout_x="10px"
+    	android:layout_y="75px"
+    >
+    </TextView>
+    <EditText
+    	android:layout_width="90px"
+    	android:layout_height="wrap_content"
+    	android:layout_x="70px"
+    	android:layout_y="60px"    	
+    >
+    </EditText>    
+</AbsoluteLayout>

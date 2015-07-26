@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!--定义一个垂直的线性布局 -->
+	<TextView  
+		android:id="@+id/textView"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="没有播放任何声音"
+    /><!-- 向线性布局中添加一个TextView控件 -->
+   	<Button
+   		android:id="@+id/button1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"   
+    	android:text="使用MediaPlayer播放声音" 		
+   	/><!-- 向线性布局中添加一个Button控件 -->
+   	<Button
+   		android:id="@+id/button2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:text="暂停MediaPlayer声音"   		
+   	/><!-- 向线性布局中添加一个Button控件 -->
+   	<Button
+   		android:id="@+id/button3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="使用SoundPool播放声音"    		
+   	/><!-- 向线性布局中添加一个Button控件 -->
+   	<Button
+   		android:id="@+id/button4"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="暂停SoundPool声音"    		
+   	/><!-- 向线性布局中添加一个Button控件 -->
+</LinearLayout>

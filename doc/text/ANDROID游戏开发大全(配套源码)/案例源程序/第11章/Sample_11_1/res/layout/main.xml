@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:id="@+id/mainLinear"
+    >
+	<ToggleButton
+		android:id="@+id/ToggleButton01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textOn="关闭背面剪裁"
+		android:textOff="打开背面剪裁"
+		android:checked="false"
+		>	
+	</ToggleButton>
+	<ToggleButton 
+	android:id="@+id/ToggleButton02" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textOn="关闭平滑着色"
+	android:textOff="打开平滑着色"
+	android:checked="false"
+	>	
+	</ToggleButton>
+	<ToggleButton 		
+	android:textOff="使用自定义卷绕"
+	android:textOn="使用默认卷绕"
+	android:checked="false"
+	android:id="@+id/ToggleButton03" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	>	
+	</ToggleButton>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 添加一个垂直的线性布局 -->
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="请输入需要计算的角度"
+	/>    <!-- 添加一个文本控件 -->
+    <EditText
+    	android:id="@+id/myEditText1"
+    	android:layout_width="100px"
+    	android:layout_height="wrap_content"
+    /><!-- 添加一个EditText控件 -->
+	<Button
+    	android:id="@+id/myButton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"	
+    	android:text="计算正弦"	
+	/><!-- 添加一个Button控件 -->
+	<TextView  
+		android:id="@+id/myEditText2"	
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="运算结果为："
+	/>	<!-- 添加一个TextView控件 -->
+</LinearLayout>

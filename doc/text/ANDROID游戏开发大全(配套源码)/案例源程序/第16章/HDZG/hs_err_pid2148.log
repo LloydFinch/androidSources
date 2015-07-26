@@ -1,0 +1,81 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=2148, tid=3324
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.3-b02 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00846c00):  JavaThread "Unknown thread" [_thread_in_vm, id=3324, stack(0x008e0000,0x00930000)]
+
+Stack: [0x008e0000,0x00930000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00846c00 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3324, stack(0x008e0000,0x00930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jdk1.6.0_13\bin\javaw.exe
+0x7c920000 - 0x7c9b6000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91d000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee2000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77d9f000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f38000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\msvcrt.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d340000 - 0x6d348000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files\Java\jdk1.6.0_13\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:C:\Android\android-sdk_r3-windows\android-sdk-windows\platforms\android-2.0\android.jar 
+java_command: wyf.ytl.Hero
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_13
+CLASSPATH=.;C:\Program Files\Java\jdk1.6.0_13\lib\tools.jar;F:\Lucene\downloads\lucene-2.9.1\lucene-core-2.9.1.jar;F:\Lucene\downloads\lucene-2.9.1\lucene-demos-2.9.1.jar
+PATH=C:/Program Files/Java/jdk1.6.0_13/bin/../jre/bin/client;C:/Program Files/Java/jdk1.6.0_13/bin/../jre/bin;C:\Program Files\OPhoneSDK_1.5.beta\tools;C:\Program Files\JavaFX\javafx-sdk1.2\bin;C:\Program Files\JavaFX\javafx-sdk1.2\emulator\bin;.;C:\Program Files\Java\jdk1.6.0_13\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;G:\apache-ant-1.7.0\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\StormII\Codec;C:\Program Files\StormII
+USERNAME=wyf
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 14 Stepping 12, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 14 stepping 12, cmov, cx8, fxsr, mmx, sse, sse2, sse3
+
+Memory: 4k page, physical 2087340k(535752k free), swap 1930680k(530532k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.3-b02) for windows-x86 JRE (1.6.0_13-b03), built on Mar  9 2009 01:15:24 by "java_re" with MS VC++ 7.1
+
+time: Wed Feb 03 14:53:23 2010
+elapsed time: 0 seconds
+

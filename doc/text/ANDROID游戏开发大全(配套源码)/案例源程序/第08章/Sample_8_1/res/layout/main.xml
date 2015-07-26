@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"><!-- 定义一个线性布局 -->
+	<wyf.ytl.GameView
+		android:id="@+id/gameView"  
+  	  	android:layout_width="fill_parent" 
+  	  	android:layout_height="wrap_content"/><!-- 添加自己实现的View -->
+    <AbsoluteLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"><!-- 再添加一个坐标布局 -->
+       <Spinner
+        	android:id="@+id/mySpinner"
+    		android:layout_width="150px" 
+    		android:layout_height="wrap_content" 
+    		android:layout_x="5px"
+    		android:layout_y="0px"/><!--在指定位置添加一个下拉列表Spinner-->
+        <Spinner
+        	android:id="@+id/target"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:layout_x="155px"
+    		android:layout_y="0px"/><!--再在在指定位置添加一个下拉列表Spinner-->    	
+    	<Button
+    		android:id="@+id/go"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="开始"
+    		android:layout_x="260px"
+    		android:layout_y="0px"/><!--在指定位置添加一个开始按钮-->
+    	<TextView
+    		android:id="@+id/bushu"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="使用步数："
+    		android:layout_x="20px"
+    		android:layout_y="50px"/><!--在指定位置添加一个文本控件-->
+    	<TextView
+    		android:id="@+id/changdu"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="路径长度："
+    		android:layout_x="150px"
+    		android:layout_y="50px"/><!--在指定位置添加一个文本控件-->
+    </AbsoluteLayout>
+</LinearLayout>

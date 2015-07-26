@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_liner"
+    >
+      <RadioGroup 
+        android:id="@+id/RadioGroup01" 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+	      <RadioButton 
+	         android:text="定位光" 
+	         android:id="@+id/position" 
+	         android:checked="true"
+	         android:layout_width="wrap_content" 
+	         android:layout_height="wrap_content">
+	      </RadioButton>   
+	      <RadioButton 
+	         android:text="定向光" 
+	         android:id="@+id/direction" 
+	         android:layout_width="wrap_content" 
+	         android:layout_height="wrap_content">
+	      </RadioButton>  
+	  </RadioGroup>
+	  <SeekBar 
+      android:id="@+id/SeekBar01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:max="100"
+      android:progress="0"
+      >
+      </SeekBar>
+</LinearLayout>

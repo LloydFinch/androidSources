@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!--定义一个线性布局 -->
+    <com.google.android.maps.MapView
+    	android:id="@+id/myMapView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:apiKey="0TaUmOAuP1gmqcGMMUDZahZeDUfmUaqkTPT91kw"
+    /><!--在线性布局中添加MapView用来显示地图 -->
+</LinearLayout>

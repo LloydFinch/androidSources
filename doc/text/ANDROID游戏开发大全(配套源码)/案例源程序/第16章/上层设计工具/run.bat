@@ -1,0 +1,3 @@
+java wyf.MainFrame
+
+pause

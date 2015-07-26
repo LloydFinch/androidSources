@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 添加一个线性布局 -->
+    <ImageView
+    	android:id="@+id/myImageView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/common"
+    	android:layout_gravity="center"
+    /><!-- 添加一个ImageView控件 -->
+    <TextView
+    	android:id="@+id/myTextView"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:textSize="20px"
+    	android:text="状态：普通"
+    /><!-- 添加一个TextView文本控件 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_gravity="center"
+    ><!-- 再添加一个水平的线性布局 -->
+    	<Button
+    		android:id="@+id/bath"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="bottom"
+    		android:textSize="18px"
+    		android:text="洗澡"
+    	/><!-- 添加洗澡按钮-->
+    	<Button
+    		android:id="@+id/engage"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:text="逗弄"
+    		android:textSize="18px"
+    		android:layout_gravity="bottom"
+    	/><!-- 添加逗弄按钮-->
+    	<Button
+    		android:id="@+id/find"
+    		android:layout_width="106px"
+    		android:layout_height="wrap_content"
+    		android:text="寻找"
+    		android:textSize="18px"
+    		android:layout_gravity="bottom"
+    	/><!-- 添加寻找按钮-->
+    </LinearLayout>
+</LinearLayout>

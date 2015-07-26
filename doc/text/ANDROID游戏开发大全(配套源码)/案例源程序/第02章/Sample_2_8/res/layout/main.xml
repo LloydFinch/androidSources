@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 定义一个线性布局 -->
+<wyf.ytl.MyView 
+	android:id="@+id/myView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    /><!--将自定义的View添加到布局中 -->
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!-- 定义一个垂直的线性布局-->
+<ImageView 
+	android:id="@+id/myImageView"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:src="@drawable/img"
+    /><!--添加一个id为myImageView的ImageView控件-->
+</LinearLayout>
